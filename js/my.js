@@ -14,7 +14,7 @@ $(document).ready(function(){
         var now = new Date();
         return Math.abs(now.toDateString().hashCode())%15
     }
-    var codes = ["managing_sam", "useful_dragon", "sad_sun", "managing_butterfly", "excited_sam", "excited_antelope", "managing_antelope", "complete_sun", "sad_antelope", "happy_antelope", "sad_sam", "complete_sam", "happy_butterfly", "useful_sun", "sad_dragon", "managing_dragon", "excited_dragon", "managing_sun", "happy_dragon", "happy_sam", "useful_antelope", "excited_moon", "happy_sun", "useful_moon", "complete_antelope", "excited_butterfly", "sad_moon", "useful_butterfly", "sad_butterfly", "managing_moon", "complete_moon", "happy_moon", "complete_butterfly", "excited_sun", "useful_sam", "complete_dragon"]
+    var codes = [13576,38173,49382,49586,193845,748392,84857,94837,94837,47171,38493,38495,394872,94756,1834759,9584713,438294,94856,905837,487139,4849483,491834,48596]
     $("#discount_code").text(codes[window.todays_discount()])
     $("#discount").text(window.todays_discount() + "%")
     window.initMap = function() {
